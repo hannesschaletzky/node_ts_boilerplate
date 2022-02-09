@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    // rules from facebook: https://www.npmjs.com/package/eslint-config-fbjs
+    // all rules: https://eslint.org/docs/rules/
+    "no-console": 0, // Means no warning
+    "prettier/prettier": 2 // Means error
+  }
+}
