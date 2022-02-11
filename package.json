@@ -8,7 +8,7 @@
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
-    "test": "jest",
+    "test": "jest --config",
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/app.js"
   },
