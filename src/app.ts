@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
   res.json('Hello World!');
 });
 
-app.listen(3100, () => {
-  console.log('Example app listening on port 3100!');
+app.listen(3000, () => {
+  console.log('Example app listening on port 3000!');
 });
 
 console.log('Hello world!');
